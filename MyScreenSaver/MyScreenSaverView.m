@@ -9,6 +9,7 @@ WKWebView *view;
 {
     self = [super initWithFrame:frame isPreview:isPreview];
     if (self) {
+        if (isPreview) frame.origin= NSZeroPoint;
         view= [[WKWebView alloc] initWithFrame:frame];
         [self addSubview:view];
         [self setAnimationTimeInterval:1/30.0];
