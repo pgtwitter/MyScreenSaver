@@ -11,6 +11,8 @@
 		96347BFC2315B17A00192BD1 /* MyScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96347BFB2315B17A00192BD1 /* MyScreenSaverView.m */; };
 		96347C052315B1AB00192BD1 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 96347C042315B1AB00192BD1 /* index.html */; };
 		96347C082315B1DF00192BD1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96347C072315B1DF00192BD1 /* WebKit.framework */; };
+		96EA6E4F23194A4D00B62600 /* graphicbeats.js in Resources */ = {isa = PBXBuildFile; fileRef = 96EA6E4D23194A4D00B62600 /* graphicbeats.js */; };
+		96EA6E5023194A4D00B62600 /* WebGL-Fluid-Simulation.js in Resources */ = {isa = PBXBuildFile; fileRef = 96EA6E4E23194A4D00B62600 /* WebGL-Fluid-Simulation.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		96347BFD2315B17A00192BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96347C042315B1AB00192BD1 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		96347C072315B1DF00192BD1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		96EA6E4D23194A4D00B62600 /* graphicbeats.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = graphicbeats.js; sourceTree = "<group>"; };
+		96EA6E4E23194A4D00B62600 /* WebGL-Fluid-Simulation.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "WebGL-Fluid-Simulation.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 		96347BEC2315B17A00192BD1 = {
 			isa = PBXGroup;
 			children = (
+				96EA6E4C23194A4D00B62600 /* js */,
 				96347C032315B1AB00192BD1 /* www */,
 				96347BF82315B17A00192BD1 /* MyScreenSaver */,
 				96347BF72315B17A00192BD1 /* Products */,
@@ -76,6 +81,15 @@
 				96347C072315B1DF00192BD1 /* WebKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96EA6E4C23194A4D00B62600 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				96EA6E4D23194A4D00B62600 /* graphicbeats.js */,
+				96EA6E4E23194A4D00B62600 /* WebGL-Fluid-Simulation.js */,
+			);
+			path = js;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +160,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96EA6E5023194A4D00B62600 /* WebGL-Fluid-Simulation.js in Resources */,
 				96347C052315B1AB00192BD1 /* index.html in Resources */,
+				96EA6E4F23194A4D00B62600 /* graphicbeats.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
