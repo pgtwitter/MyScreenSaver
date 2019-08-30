@@ -1,9 +1,6 @@
 #import "MyScreenSaverView.h"
-#import <WebKit/WebKit.h>
 
 @implementation MyScreenSaverView
-
-WKWebView *view;
 
 - (instancetype)initWithFrame:(NSRect)frame isPreview:(BOOL)isPreview
 {
