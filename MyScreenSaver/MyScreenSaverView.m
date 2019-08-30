@@ -3,8 +3,6 @@
 
 @implementation MyScreenSaverView
 
-WKWebView *view;
-
 - (instancetype)initWithFrame:(NSRect)frame isPreview:(BOOL)isPreview
 {
     self = [super initWithFrame:frame isPreview:isPreview];
