@@ -7,6 +7,9 @@ ScreenSaver with WKWebView
 * Street View Random Walker さまよえる私 | [Site](https://whispering-inlet-27072.herokuapp.com) | [About](https://twitter.com/sngazm/status/1134590000916357120) [About](https://i-m-a-g-e.club/streetview-randomwalker/)
 
 ---
+外部サイトを利用する場合には，悪意のあるコードが混入されることやドメイン失効等で想定外のサイトとなる可能性があることを理解できる方のみご利用下さい．
+
+---
 出来上がった'MyScreenSaver.saver'ファイルを'/Users/[USER NAME]/Library/Screen Savers/'フォルダに配置してください.
 ```
 $ mv /path/to/MyScreenSaver.saver /Users/[USER NAME]/Library/Screen\ Savers/
