@@ -11,4 +11,6 @@ setInterval(function(){
     window.dispatchEvent(new KeyboardEvent('keydown', obj));
     window.dispatchEvent(new KeyboardEvent('keypress', obj));
     window.dispatchEvent(new KeyboardEvent('keyup', obj));
+
+    masterVolume(0);
 }, 500);
